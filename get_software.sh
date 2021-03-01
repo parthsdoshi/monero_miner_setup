@@ -7,4 +7,4 @@ cp ./config.json xmrig-6.9.0/config.json
 cd xmrig-6.9.0
 echo "Starting XMRig with config:"
 cat config.json
-./xmrig
+sudo ./xmrig
