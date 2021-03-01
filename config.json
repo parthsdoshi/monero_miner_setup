@@ -14,9 +14,11 @@
         {
             "url": "pool.supportxmr.com:443",
             "user": "4B3eqHVmDR9iNHi4AFYeR5fMX25TGDi6NXQAjiEn5VKmQkWEFTPbMAehCXi9SecNaiYAASociMc2NWmdvebVbpBmBDgnw2b",
-            "pass": "azure",
+            "pass": "${AZ_BATCH_NODE_ID}",
             "keepalive": true,
             "tls": true
         }
-    ]
+    ],
+    "log-file": "logs.txt",
+    "colors": false
 }
