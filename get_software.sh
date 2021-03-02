@@ -10,4 +10,4 @@ cp ./config.json xmrig-6.9.0/config.json
 cd xmrig-6.9.0
 echo "Starting XMRig with config:"
 cat config.json
-sudo ./xmrig
+sudo --preserve-env=AZ_BATCH_NODE_ID ./xmrig
