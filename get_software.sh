@@ -20,5 +20,4 @@ cd xmrig-6.9.0
 echo "Starting with config:"
 cat config.json
 
-sudo node mm.js -p=gulf.moneroocean.stream:10128 -m "sudo --preserve-env=AZ_BATCH_NODE_ID ./xmrig --config=config.json"
-# sudo --preserve-env=AZ_BATCH_NODE_ID ./xmrig
+sudo node mm.js -p=gulf.moneroocean.stream:10128 -m="sudo --preserve-env=AZ_BATCH_NODE_ID ./xmrig --config=config.json"
